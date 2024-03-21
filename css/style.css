@@ -128,7 +128,7 @@ input{
 @media (max-width:500px) {
     .banner{
         padding:1rem!important;
-        /* height: 100vh; */
+         height: 75vh;
     }
     h6.mb-2.hellotext, h6.mb-4.degination{
         font-size: 18px;
