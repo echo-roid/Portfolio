@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.caprasimo-regular {
+    font-family: "Caprasimo", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+section{
+    overflow: hidden;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Caprasimo", serif;
+    font-weight: 400;
+}
+p,ul,button{
+     
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.headingcolor{
+    color:#545151;
+}
+
+.banner{
+    height:90vh;
+    background: black url(../assets/fade.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+
+}
+.subtext{
+    font-size: 14px;
+}
+
+.cv {
+    padding: 16px;
+    border-radius: 81px;
+    border: none;
+    outline: none;
+    min-width: 162px;
+    background: #00eeff;
+    color: black;
+    box-shadow: 0 2px 18px #0dc6d3;
+}
+
+
+.bgBlack{
+    background: black;
+}
+
+h1.mb-2.nameheadind {
+    font-size: 60px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+h6.mb-2.hellotext, h6.mb-4.degination{
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.aboutus{
+    position: relative;
+}
+.rowabout img{
+
+   height: 390px;
+   width: 48%;
+}
+
+.aboutImg{
+    position: absolute;
+   top: 147px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   
+}
+.rowabout,.headingWork,.wrapper{
+    position: relative;
+    z-index: 3;
+}
+
+.secondAbout{
+    margin-top: 20px;
+}
+.projectSection,.submitSection{
+    position: relative;
+    
+}
+.projectSection .row{
+    position: relative;
+    z-index: 3;
+}
+.contactHeading{
+    font-size: 79px;
+}
+
+input{
+    border: 2px solid white;
+    padding: 8px;
+    outline: none; 
+    border-radius: 30px;
+}
+
+.desk{
+ display: block;
+}
+.mob{
+    display: none;
+}
+
+@media (max-width:1000px) {
+    .desk{
+        display: none;
+    }
+    .mob{
+        display: block;
+    }
+}
+
+@media (max-width:500px) {
+    .banner{
+        padding:1rem!important;
+        height: 100vh;
+    }
+    h6.mb-2.hellotext, h6.mb-4.degination{
+        font-size: 18px;
+    }
+    h6.mb-4.degination{
+        margin-bottom: 10px!important;
+    }
+    .nameheadind{
+        font-size: 30px!important;
+    }
+    .subtext{
+        font-size: 10px;
+    }
+    .reverserMob{
+        flex-direction: column-reverse;
+    }
+    .header{
+        padding: 0px!important;
+    }
+    .aboutus{
+        padding: 2rem 1rem!important;
+    }
+    .rowabout img{
+        width: 100%;
+    }
+    .rowabout .d-flex{
+        flex-wrap: wrap;
+    }
+    .rowabout{
+        flex-direction: column-reverse;
+    }
+    .projectSection{
+        padding: 2rem 1rem!important;
+    }
+    .headingWork{
+        margin-top: 0!important;
+    }
+    .projectSection .row .col-md-4{
+        margin-bottom: 20px!important;
+    }
+    .submitSection{
+        padding: 1rem!important;
+    }
+    .contactHeading {
+        font-size: 41px!important;
+        margin-bottom: 30px;
+    }
+}
